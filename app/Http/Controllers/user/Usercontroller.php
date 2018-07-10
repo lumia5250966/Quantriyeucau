@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\user;
+namespace App\Http\Controllers\User;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use DB;
 
-class Usercontroller extends Controller
+class UserController extends Controller
 {
     //Hàm trả ra trang quản lý cấu hình
     public function indexusers(){
